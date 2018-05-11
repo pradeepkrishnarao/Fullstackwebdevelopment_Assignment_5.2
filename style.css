@@ -1,0 +1,21 @@
+       /* Universal selector - objective to clear unnecessary spacing in the web page */ 
+       *  {
+                padding: 0px;
+                border: 0px;
+                margin: 0px;
+            }
+
+    header  {
+                background: green;
+                padding: 20px;
+                color: white;
+            }
+
+            /* Media query set for screen and 450px maximum screen devices, Header selector background
+            changes to blue in the devices that has a maximum screen width of 450px and lesser than 450px width*/
+@media screen and (max-width: 450px){
+
+                    header {
+                                background-color: blue;
+                            }
+            }
